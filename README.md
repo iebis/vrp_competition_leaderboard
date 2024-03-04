@@ -2,12 +2,12 @@
 
 Welcome to the TLM Vehicle Routing Competition, linked to Assignment 2 of the TLM course!
 
-In this competition, you can earn bonus points by designing well-performing algorithms for the vehicle routing problem. All communication of this competition goes via GitHub Issues in THIS repository. If you have questions are comments related to the competition, please open an `Issue` in this GitHub repository.
+In this competition, you can earn bonus points by designing well-performing algorithms for the vehicle routing problem. All communication of this competition goes via GitHub Issues in **THIS** repository. If you have questions or comments related to the competition, please open an `Issue` in this GitHub repository.
 
 ## Competion rules and guidelines
 
 1. We trust you to do your best to learn how to design well-performing algorithms by yourself, without cheating. Note that we will check the code of the winning group and some randomly selected groups.
-2. If you submit code before 12:00 midnight, your solution will be run and the next day the leaderboard will be updated with your score.
+2. If you submit code before 12:00 midnight, your solution will run and the next day the leaderboard will be updated with your score.
 3. You can only use the Python libraries listed in `main.py`, consult with us if you like to use other libraries.
 4. Please do not upload code with bugs.
 5. All communication concerning the competition goes via GitHub Issues. Please do not send e-mails to any of us regarding the competition.
@@ -18,8 +18,6 @@ In this competition, you can earn bonus points by designing well-performing algo
 10. After submitting, it might take some time before your score appears on the leaderboard, depending on the length of the queue of submissions.
 11. Code runs on a virtual machine with an Intel Xeon Gold 5118 CPU at 2.30GHz and 4GB RAM.
 12. No rights can be derived from this information and the leaderboard at any moment in time.
-
-    
 
 # Provisional Leaderboard
 
