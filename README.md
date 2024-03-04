@@ -16,14 +16,14 @@ In this competition, you can earn bonus points by designing well-performing algo
 8. We limit the computational time to 15 minutes per day per group. If you did not find a solution within 15 minutes, your submission is invalid.
 9. Only your best scoring solution is shown on the leaderboard. 
 10. After submitting, it might take some time before your score appears on the leaderboard, depending on the length of the queue of submissions.
-11. No rights can be derived from this information and the leaderboard at any moment in time.
-12. Code is run on an virtual machine with an Intel Xeon Gold 5118 CPU at 2.30GHz
+11. Code runs on a virtual machine with an Intel Xeon Gold 5118 CPU at 2.30GHz and 4GB RAM.
+12. No rights can be derived from this information and the leaderboard at any moment in time.
 
     
 
 # Provisional Leaderboard
 
-No rights can be derived from below leaderboard, at the end of the competition the definite leaderboard will be published by us. Note that a lower score is better and that `Passed` indicates if your solution ran without bugs and finished within the timelimit of 5 minutes.
+No rights can be derived from below leaderboard, at the end of the competition the definite leaderboard will be published by us. Note that a lower score is better and that `Passed` indicates if your solution ran without bugs and finished within the timelimit of 15 minutes.
 
 <!-- LEADERBOARD_START -->
 | Rank | Date | GroupNumber | Passed | Score | Runtime |
