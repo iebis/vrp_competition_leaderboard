@@ -5,6 +5,6 @@ No rights can be derived from below leaderboard, at the end of the competition r
 <!-- LEADERBOARD_START -->
 | Rank | Date | GroupNumber | Passed | Score | Runtime |
 | ------ | ------------ | ------------------- |-------------| ------- | ------- |
-| 6 | 2024-03-12 | Group1 | ❌ | nan | 0.85s |
-| 5 | 2024-03-12 | Group2 | ❌ | nan | 1.0s |
+| 1 | 2024-03-12 | Group1 | ❌ | nan | 0.85s |
+| 2 | 2024-03-12 | Group2 | ❌ | nan | 1.0s |
 <!-- LEADERBOARD_END -->
