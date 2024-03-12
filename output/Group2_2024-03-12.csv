@@ -1,12 +1,19 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc33.txt,0.49,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc33.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc53B.txt,0.48,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/vrp-competition-submissions/vrp-competition-test2/Group2/main.py"", line 76, in <module>
     sol = main(instance)
   File ""/home/akkermanfr/repos/vrp-competition-submissions/vrp-competition-test2/Group2/main.py"", line 54, in main
     x = t[20]
 IndexError: list index out of range
 ]"
-lrc34.txt,0.49,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc34.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc103B.txt,0.48,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/vrp-competition-submissions/vrp-competition-test2/Group2/main.py"", line 76, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/vrp-competition-submissions/vrp-competition-test2/Group2/main.py"", line 54, in main
+    x = t[20]
+IndexError: list index out of range
+]"
+lrc303B.txt,0.48,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/vrp-competition-submissions/vrp-competition-test2/Group2/main.py"", line 76, in <module>
     sol = main(instance)
   File ""/home/akkermanfr/repos/vrp-competition-submissions/vrp-competition-test2/Group2/main.py"", line 54, in main
