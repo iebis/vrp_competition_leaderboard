@@ -1,5 +1,5 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc33.txt,0.48,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', 'Instances/lrc33.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc33.txt,0.50,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', 'Instances/lrc33.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/vrp-competition-submissions/vrp-competition-test2/Group2/main.py"", line 76, in <module>
     sol = main(instance)
   File ""/home/akkermanfr/repos/vrp-competition-submissions/vrp-competition-test2/Group2/main.py"", line 54, in main
