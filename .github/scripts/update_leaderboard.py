@@ -20,7 +20,7 @@ with open('README.md', 'r') as file:
 # Find the leaderboard section and prepare new content
 start = content.find('<!-- LEADERBOARD_START -->') + len('<!-- LEADERBOARD_START -->')
 end = content.find('<!-- LEADERBOARD_END -->')
-leaderboard_header = "| Rank | Date | GroupNumber | Passed | Score | Runtime |\n| ------ | ------------ | ------------------- |-------------| ------- | ------- |"
+leaderboard_header = "| Rank | Date | GroupNumber | Feasible | Score | Runtime |\n| ------ | ------------ | ------------------- |-------------| ------- | ------- |"
 
 new_leaderboard_rows = []
 rank = 1
