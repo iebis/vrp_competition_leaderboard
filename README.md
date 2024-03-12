@@ -1,6 +1,6 @@
 # Provisional Leaderboard
 
-No rights can be derived from below leaderboard, at the end of the competition rounds the definite leaderboard will be published by us. Note that a higher score is better and that `Feasible` indicates if all solutions are feasible.
+No rights can be derived from below leaderboard, at the end of the competition rounds the definite leaderboard will be published by us. Note that a higher score is better and that `Feasible` indicates if all solutions are feasible. Infeasible solutions get a 'nan' score.
 
 <!-- LEADERBOARD_START -->
 | Rank | Date | GroupNumber | Feasible | Score | Runtime |
