@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'output/central_results.csv'
+  workflow_dispatch:
 
 jobs:
   update-leaderboard:
