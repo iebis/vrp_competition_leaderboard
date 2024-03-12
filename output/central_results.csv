@@ -1,7 +1,5 @@
-Group,Cumulative Profits,Total Runtime (seconds),Overall Feasible,Date Time
-Group2,-inf,1.08,No,2024-03-12 10:20:17
-Group1,-inf,1.00,No,2024-03-12 10:20:18
-Group2,-inf,0.97,No,2024-03-12 10:22:47
-Group1,-inf,0.83,No,2024-03-12 10:22:48
-Group2,-inf,1.06,No,2024-03-12 10:45:34
-Group1,-inf,0.89,No,2024-03-12 10:45:35
+Group,Cumulative Profits,Total Runtime (seconds),Overall Feasible,Score,Date Time
+Group2,0.00,1.02,No,N/A,2024-03-12 11:04:41
+Group1,0.00,0.88,No,N/A,2024-03-12 11:04:42
+Group2,0.00,1.02,No,N/A,2024-03-12 11:05:04
+Group1,0.00,0.92,No,N/A,2024-03-12 11:05:05
