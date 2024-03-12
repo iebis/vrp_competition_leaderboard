@@ -3,23 +3,36 @@ import pandas as pd
 # Load the CSV file
 df = pd.read_csv('output/central_results.csv')
 
-# Process the DataFrame to find the best score per group
-# This is a placeholder - adapt the logic based on your scoring rules
-best_scores = df.sort_values(by=['Score', 'Date Time'], ascending=[True, False]).drop_duplicates('Group')
+# Convert "Date Time" to datetime for sorting
+df['Date Time'] = pd.to_datetime(df['Date Time'])
 
-# Clear the leaderboard section in README.md and prepare new content
-with open('README.md', 'r+') as file:
+# Process the DataFrame
+# 1. Prioritize feasible solutions
+# 2. Sort by score (descending, since higher is better), then by Date Time (most recent first)
+# 3. Drop duplicates, keeping the first occurrence (best score per group)
+best_scores = df.sort_values(by=['Overall Feasible', 'Score', 'Date Time'], ascending=[False, False, False])\
+                .drop_duplicates('Group')
+
+# Read the existing README.md content
+with open('README.md', 'r') as file:
     content = file.read()
-    start = content.find('<!-- LEADERBOARD_START -->')
-    end = content.find('<!-- LEADERBOARD_END -->') + len('<!-- LEADERBOARD_END -->')
-    new_leaderboard = "\n".join([
-        "| Rank | Date | GroupNumber | Feasible | Score | Runtime |",
-        "| ------ | ------------ | ------------------- |-------------| ------- | ------- |",
-    ] + [
-        f"| {i+1} | {row['Date Time']} | {row['Group']} | {'✅' if row['Overall Feasible'] == 'Yes' else '❌'} | {row['Score']} | {row['Total Runtime (seconds)']}s |"
-        for i, row in best_scores.iterrows()
-    ])
-    new_content = content[:start] + '<!-- LEADERBOARD_START -->\n' + new_leaderboard + '\n' + content[end:]
-    file.seek(0)
+
+# Find the leaderboard section and prepare new content
+start = content.find('<!-- LEADERBOARD_START -->') + len('<!-- LEADERBOARD_START -->')
+end = content.find('<!-- LEADERBOARD_END -->')
+leaderboard_header = "| Rank | Date | GroupNumber | Passed | Score | Runtime |\n| ------ | ------------ | ------------------- |-------------| ------- | ------- |"
+
+new_leaderboard_rows = []
+for i, row in best_scores.iterrows():
+    passed_icon = '✅' if row['Overall Feasible'] == 'Yes' else '❌'
+    date_str = row['Date Time'].strftime("%Y-%m-%d")
+    new_leaderboard_rows.append(f"| {i+1} | {date_str} | {row['Group']} | {passed_icon} | {row['Score']} | {row['Total Runtime (seconds)']}s |")
+
+new_leaderboard_content = "\n".join([leaderboard_header] + new_leaderboard_rows)
+
+# Replace the old leaderboard section with the new content
+new_content = content[:start] + "\n" + new_leaderboard_content + "\n" + content[end:]
+
+# Write the updated content back to README.md
+with open('README.md', 'w') as file:
     file.write(new_content)
-    file.truncate()
