@@ -23,10 +23,12 @@ end = content.find('<!-- LEADERBOARD_END -->')
 leaderboard_header = "| Rank | Date | GroupNumber | Passed | Score | Runtime |\n| ------ | ------------ | ------------------- |-------------| ------- | ------- |"
 
 new_leaderboard_rows = []
+rank = 1
 for i, row in best_scores.iterrows():
     passed_icon = '✅' if row['Overall Feasible'] == 'Yes' else '❌'
     date_str = row['Date Time'].strftime("%Y-%m-%d")
-    new_leaderboard_rows.append(f"| {i+1} | {date_str} | {row['Group']} | {passed_icon} | {row['Score']} | {row['Total Runtime (seconds)']}s |")
+    new_leaderboard_rows.append(f"| {rank} | {date_str} | {row['Group']} | {passed_icon} | {row['Score']} | {row['Total Runtime (seconds)']}s |")
+    rank += 1
 
 new_leaderboard_content = "\n".join([leaderboard_header] + new_leaderboard_rows)
 
