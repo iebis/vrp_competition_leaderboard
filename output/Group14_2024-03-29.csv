@@ -1,22 +1,4 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,0.05,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-14/Group14/main.py"", line 7, in <module>
-    from constructive_heuristic import nearest_neighbor_algorithm, clustered_nn_algorithm
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-14/Group14/constructive_heuristic.py"", line 5, in <module>
-    from sklearn.cluster import AgglomerativeClustering
-ModuleNotFoundError: No module named 'sklearn'
-]"
-lrc103B.txt,0.05,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-14/Group14/main.py"", line 7, in <module>
-    from constructive_heuristic import nearest_neighbor_algorithm, clustered_nn_algorithm
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-14/Group14/constructive_heuristic.py"", line 5, in <module>
-    from sklearn.cluster import AgglomerativeClustering
-ModuleNotFoundError: No module named 'sklearn'
-]"
-lrc303B.txt,0.05,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-14/Group14/main.py"", line 7, in <module>
-    from constructive_heuristic import nearest_neighbor_algorithm, clustered_nn_algorithm
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-14/Group14/constructive_heuristic.py"", line 5, in <module>
-    from sklearn.cluster import AgglomerativeClustering
-ModuleNotFoundError: No module named 'sklearn'
-]"
+lrc53B.txt,0.86,Yes,18970.551786265012,[]
+lrc103B.txt,0.89,Yes,40587.37395350997,[]
+lrc303B.txt,1.04,Yes,107827.2966916982,[]
