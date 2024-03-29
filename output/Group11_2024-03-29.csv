@@ -1,22 +1,40 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,0.40,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 5, in <module>
-    import animated
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/animated.py"", line 9, in <module>
-    from IPython.display import HTML
-ModuleNotFoundError: No module named 'IPython'
+lrc53B.txt,0.63,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: /home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py:98: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 155, in <module>
+    sol = main(instance, heuristic_method,local_search_method)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 111, in main
+    check_solution_feasibility(solution, instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/helper.py"", line 143, in check_solution_feasibility
+    if not check_vehicle_capacity(solution, instance_dict, vehicle_capacity):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/helper.py"", line 79, in check_vehicle_capacity
+    location_id = visit['node_id']
+TypeError: list indices must be integers or slices, not str
 ]"
-lrc103B.txt,0.33,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 5, in <module>
-    import animated
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/animated.py"", line 9, in <module>
-    from IPython.display import HTML
-ModuleNotFoundError: No module named 'IPython'
+lrc103B.txt,0.61,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: /home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py:98: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 155, in <module>
+    sol = main(instance, heuristic_method,local_search_method)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 111, in main
+    check_solution_feasibility(solution, instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/helper.py"", line 143, in check_solution_feasibility
+    if not check_vehicle_capacity(solution, instance_dict, vehicle_capacity):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/helper.py"", line 79, in check_vehicle_capacity
+    location_id = visit['node_id']
+TypeError: list indices must be integers or slices, not str
 ]"
-lrc303B.txt,0.32,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 5, in <module>
-    import animated
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/animated.py"", line 9, in <module>
-    from IPython.display import HTML
-ModuleNotFoundError: No module named 'IPython'
+lrc303B.txt,3.32,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: /home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py:98: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 155, in <module>
+    sol = main(instance, heuristic_method,local_search_method)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 111, in main
+    check_solution_feasibility(solution, instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/helper.py"", line 143, in check_solution_feasibility
+    if not check_vehicle_capacity(solution, instance_dict, vehicle_capacity):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/helper.py"", line 79, in check_vehicle_capacity
+    location_id = visit['node_id']
+TypeError: list indices must be integers or slices, not str
 ]"

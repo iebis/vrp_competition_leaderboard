@@ -10,7 +10,7 @@ lrc53B.txt,0.22,No,-inf,"[Error running script: Command '['python3', 'main.py', 
     start_depot_id, end_depot_id = route[0]['node_id'], route[-1]['node_id']
 IndexError: list index out of range
 ]"
-lrc103B.txt,0.70,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc103B.txt,0.71,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/main.py"", line 109, in <module>
     sol = main(instance)
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/main.py"", line 84, in main
@@ -21,7 +21,7 @@ lrc103B.txt,0.70,No,-inf,"[Error running script: Command '['python3', 'main.py',
     start_depot_id, end_depot_id = route[0]['node_id'], route[-1]['node_id']
 IndexError: list index out of range
 ]"
-lrc303B.txt,15.22,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc303B.txt,15.18,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/main.py"", line 109, in <module>
     sol = main(instance)
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/main.py"", line 84, in main
