@@ -1,5 +1,5 @@
 # Provisional Leaderboard
-| Rank | Date | GroupNumber | Feasible | Score | Runtime |
+| Rank | Date | GroupNumber | Feasible/Bugs | Score | Runtime |
 | ------ | ------------ | ------------------- |-------------| ------- | ------- |
 | 1 | 2024-03-29 | Group14 | ✅ | 3533.9 | 2.79s |
 | 2 | 2024-03-29 | Group18 | ✅ | 3261.58 | 1.41s |
