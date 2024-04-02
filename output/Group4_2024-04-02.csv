@@ -1,5 +1,5 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,0.17,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc53B.txt,0.19,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-4/Group4/main.py"", line 112, in <module>
     sol = main(instance)
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-4/Group4/main.py"", line 41, in main
@@ -8,7 +8,7 @@ lrc53B.txt,0.17,No,-inf,"[Error running script: Command '['python3', 'main.py', 
     x = parsed_data[node_type + 's'][node_id]['x_coord']
 KeyError: 'pickups'
 ]"
-lrc103B.txt,0.17,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc103B.txt,0.20,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-4/Group4/main.py"", line 112, in <module>
     sol = main(instance)
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-4/Group4/main.py"", line 41, in main
@@ -17,7 +17,7 @@ lrc103B.txt,0.17,No,-inf,"[Error running script: Command '['python3', 'main.py',
     x = parsed_data[node_type + 's'][node_id]['x_coord']
 KeyError: 'pickups'
 ]"
-lrc303B.txt,0.19,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc303B.txt,0.22,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-4/Group4/main.py"", line 112, in <module>
     sol = main(instance)
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-4/Group4/main.py"", line 41, in main

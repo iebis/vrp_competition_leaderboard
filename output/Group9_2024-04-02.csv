@@ -1,16 +1,16 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,0.15,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-9/Group9/main.py"", line 10, in <module>
-    instance=input(""Which instance would you like to run?"")
-OSError: [Errno 9] Bad file descriptor
+lrc53B.txt,0.17,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-9/Group9/main.py"", line 59, in <module>
+    if instance == '1':
+NameError: name 'instance' is not defined. Did you mean: 'isinstance'?
 ]"
-lrc103B.txt,0.15,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-9/Group9/main.py"", line 10, in <module>
-    instance=input(""Which instance would you like to run?"")
-OSError: [Errno 9] Bad file descriptor
+lrc103B.txt,0.17,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-9/Group9/main.py"", line 59, in <module>
+    if instance == '1':
+NameError: name 'instance' is not defined. Did you mean: 'isinstance'?
 ]"
-lrc303B.txt,0.15,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-9/Group9/main.py"", line 10, in <module>
-    instance=input(""Which instance would you like to run?"")
-OSError: [Errno 9] Bad file descriptor
+lrc303B.txt,0.17,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-9/Group9/main.py"", line 59, in <module>
+    if instance == '1':
+NameError: name 'instance' is not defined. Did you mean: 'isinstance'?
 ]"
