@@ -1,16 +1,28 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,0.03,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 8, in <module>
-    from Group10.helper import read_instance, parse_instance, generate_random_routes_from_instance, check_solution_feasibility, total_profit_with_penalties
+lrc53B.txt,0.12,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 9, in <module>
+    from nn import Nearest_Neighbour
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/nn.py"", line 3, in <module>
+    from UsedSrc.solution import VRPSolution
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/UsedSrc/solution.py"", line 3, in <module>
+    from Group10.UsedSrc.route import Route
 ModuleNotFoundError: No module named 'Group10'
 ]"
-lrc103B.txt,0.03,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 8, in <module>
-    from Group10.helper import read_instance, parse_instance, generate_random_routes_from_instance, check_solution_feasibility, total_profit_with_penalties
+lrc103B.txt,0.12,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 9, in <module>
+    from nn import Nearest_Neighbour
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/nn.py"", line 3, in <module>
+    from UsedSrc.solution import VRPSolution
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/UsedSrc/solution.py"", line 3, in <module>
+    from Group10.UsedSrc.route import Route
 ModuleNotFoundError: No module named 'Group10'
 ]"
-lrc303B.txt,0.03,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 8, in <module>
-    from Group10.helper import read_instance, parse_instance, generate_random_routes_from_instance, check_solution_feasibility, total_profit_with_penalties
+lrc303B.txt,0.12,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 9, in <module>
+    from nn import Nearest_Neighbour
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/nn.py"", line 3, in <module>
+    from UsedSrc.solution import VRPSolution
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/UsedSrc/solution.py"", line 3, in <module>
+    from Group10.UsedSrc.route import Route
 ModuleNotFoundError: No module named 'Group10'
 ]"

@@ -1,15 +1,15 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,0.14,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc53B.txt,0.12,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-13/Group13/main.py"", line 9, in <module>
     import gurobipy as gr
 ModuleNotFoundError: No module named 'gurobipy'
 ]"
-lrc103B.txt,0.14,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc103B.txt,0.12,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-13/Group13/main.py"", line 9, in <module>
     import gurobipy as gr
 ModuleNotFoundError: No module named 'gurobipy'
 ]"
-lrc303B.txt,0.14,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc303B.txt,0.12,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-13/Group13/main.py"", line 9, in <module>
     import gurobipy as gr
 ModuleNotFoundError: No module named 'gurobipy'
