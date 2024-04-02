@@ -2,24 +2,27 @@ Instance,Runtime (seconds),Feasible,Profit,Error
 lrc53B.txt,0.03,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-3/Group3/main.py"", line 8, in <module>
     from heuristic import H1_nearest_neighbour_heuristic
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-3/Group3/heuristic.py"", line 90
-    section_data = 
-                   ^
-SyntaxError: invalid syntax
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-3/Group3/heuristic.py"", line 5, in <module>
+    from visualization import visualization
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-3/Group3/visualization.py"", line 1, in <module>
+    import networkx as nx
+ModuleNotFoundError: No module named 'networkx'
 ]"
 lrc103B.txt,0.03,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-3/Group3/main.py"", line 8, in <module>
     from heuristic import H1_nearest_neighbour_heuristic
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-3/Group3/heuristic.py"", line 90
-    section_data = 
-                   ^
-SyntaxError: invalid syntax
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-3/Group3/heuristic.py"", line 5, in <module>
+    from visualization import visualization
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-3/Group3/visualization.py"", line 1, in <module>
+    import networkx as nx
+ModuleNotFoundError: No module named 'networkx'
 ]"
 lrc303B.txt,0.03,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-3/Group3/main.py"", line 8, in <module>
     from heuristic import H1_nearest_neighbour_heuristic
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-3/Group3/heuristic.py"", line 90
-    section_data = 
-                   ^
-SyntaxError: invalid syntax
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-3/Group3/heuristic.py"", line 5, in <module>
+    from visualization import visualization
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-3/Group3/visualization.py"", line 1, in <module>
+    import networkx as nx
+ModuleNotFoundError: No module named 'networkx'
 ]"
