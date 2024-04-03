@@ -1,0 +1,4 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc53B.txt,0.72,No,-inf,[No RESULT line found]
+lrc103B.txt,0.74,No,-inf,[No RESULT line found]
+lrc303B.txt,0.93,No,-inf,[No RESULT line found]
