@@ -1,16 +1,4 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,0.37,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-13/Group13/main.py"", line 14, in <module>
-    from pyomo.environ import (
-ModuleNotFoundError: No module named 'pyomo'
-]"
-lrc103B.txt,0.36,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-13/Group13/main.py"", line 14, in <module>
-    from pyomo.environ import (
-ModuleNotFoundError: No module named 'pyomo'
-]"
-lrc303B.txt,0.36,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-13/Group13/main.py"", line 14, in <module>
-    from pyomo.environ import (
-ModuleNotFoundError: No module named 'pyomo'
-]"
+lrc53B.txt,1.13,Yes,18802.91069061366,[]
+lrc103B.txt,1.09,Yes,40696.06656426184,[]
+lrc303B.txt,2.01,Yes,95154.59975686751,[]

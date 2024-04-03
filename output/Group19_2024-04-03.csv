@@ -1,5 +1,5 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,0.22,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc53B.txt,0.23,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 92, in <module>
     sol = main(instance)
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 63, in main
@@ -8,7 +8,7 @@ lrc53B.txt,0.22,No,-inf,"[Error running script: Command '['python3', 'main.py', 
     if current_solution > best_solution:
 TypeError: '>' not supported between instances of 'dict' and 'dict'
 ]"
-lrc103B.txt,0.92,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc103B.txt,1.01,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 92, in <module>
     sol = main(instance)
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 63, in main
@@ -17,7 +17,7 @@ lrc103B.txt,0.92,No,-inf,"[Error running script: Command '['python3', 'main.py',
     if current_solution > best_solution:
 TypeError: '>' not supported between instances of 'dict' and 'dict'
 ]"
-lrc303B.txt,24.85,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+lrc303B.txt,26.43,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 92, in <module>
     sol = main(instance)
   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 63, in main
