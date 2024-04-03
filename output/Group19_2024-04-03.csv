@@ -1,28 +1,16 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,0.23,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 92, in <module>
-    sol = main(instance)
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 63, in main
-    best_solution = tabu_search(random_routes, tabu_list, instance_dict)
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/local_search.py"", line 59, in tabu_search
-    if current_solution > best_solution:
-TypeError: '>' not supported between instances of 'dict' and 'dict'
+lrc53B.txt,0.45,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 8, in <module>
+    from heuristicBram import nearest_neighbor_route, plot_routes   
+ImportError: cannot import name 'plot_routes' from 'heuristicBram' (/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/heuristicBram.py)
 ]"
-lrc103B.txt,1.01,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 92, in <module>
-    sol = main(instance)
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 63, in main
-    best_solution = tabu_search(random_routes, tabu_list, instance_dict)
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/local_search.py"", line 59, in tabu_search
-    if current_solution > best_solution:
-TypeError: '>' not supported between instances of 'dict' and 'dict'
+lrc103B.txt,0.45,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 8, in <module>
+    from heuristicBram import nearest_neighbor_route, plot_routes   
+ImportError: cannot import name 'plot_routes' from 'heuristicBram' (/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/heuristicBram.py)
 ]"
-lrc303B.txt,26.43,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 92, in <module>
-    sol = main(instance)
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 63, in main
-    best_solution = tabu_search(random_routes, tabu_list, instance_dict)
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/local_search.py"", line 59, in tabu_search
-    if current_solution > best_solution:
-TypeError: '>' not supported between instances of 'dict' and 'dict'
+lrc303B.txt,0.45,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/main.py"", line 8, in <module>
+    from heuristicBram import nearest_neighbor_route, plot_routes   
+ImportError: cannot import name 'plot_routes' from 'heuristicBram' (/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-19/Group19/heuristicBram.py)
 ]"

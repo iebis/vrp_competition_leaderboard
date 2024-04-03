@@ -1,13 +1,13 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,0.53,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 59, in <module>
+lrc53B.txt,0.52,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc53B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 65, in <module>
     sol = main(instance)
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 29, in main
-    nearest_neighbor = nearest_neighbour_routes_from_instance(instance_dict, 25)
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/heuristics.py"", line 126, in nearest_neighbour_routes_from_instance
-    visualize_routes(routes, node_data, ""nearest neighbor"")
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/helper.py"", line 283, in visualize_routes
-    plt.savefig(""Figures/nearest_neighbor_visualisation.svg"", format=""svg"")
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 36, in main
+    cheapest_insertion = cheapest_insertion_routes_from_instance(instance_dict, 25)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/heuristics.py"", line 134, in cheapest_insertion_routes_from_instance
+    visualize_routes(routes, node_data, number_customer, ""cheapest insertion"")
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/helper.py"", line 349, in visualize_routes
+    plt.savefig(""Figures/""+name+""_visualisation.svg"", format=""svg"")
   File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/pyplot.py"", line 1134, in savefig
     res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
   File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/figure.py"", line 3390, in savefig
@@ -22,17 +22,17 @@ lrc53B.txt,0.53,No,-inf,"[Error running script: Command '['python3', 'main.py', 
     fh, opened = to_filehandle(path_or_file, mode, True, encoding)
   File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/cbook.py"", line 483, in to_filehandle
     fh = open(fname, flag, encoding=encoding)
-FileNotFoundError: [Errno 2] No such file or directory: 'Figures/nearest_neighbor_visualisation.svg'
+FileNotFoundError: [Errno 2] No such file or directory: 'Figures/cheapest insertion_visualisation.svg'
 ]"
 lrc103B.txt,0.54,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 59, in <module>
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 65, in <module>
     sol = main(instance)
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 29, in main
-    nearest_neighbor = nearest_neighbour_routes_from_instance(instance_dict, 25)
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/heuristics.py"", line 126, in nearest_neighbour_routes_from_instance
-    visualize_routes(routes, node_data, ""nearest neighbor"")
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/helper.py"", line 283, in visualize_routes
-    plt.savefig(""Figures/nearest_neighbor_visualisation.svg"", format=""svg"")
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 36, in main
+    cheapest_insertion = cheapest_insertion_routes_from_instance(instance_dict, 25)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/heuristics.py"", line 134, in cheapest_insertion_routes_from_instance
+    visualize_routes(routes, node_data, number_customer, ""cheapest insertion"")
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/helper.py"", line 349, in visualize_routes
+    plt.savefig(""Figures/""+name+""_visualisation.svg"", format=""svg"")
   File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/pyplot.py"", line 1134, in savefig
     res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
   File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/figure.py"", line 3390, in savefig
@@ -47,17 +47,17 @@ lrc103B.txt,0.54,No,-inf,"[Error running script: Command '['python3', 'main.py',
     fh, opened = to_filehandle(path_or_file, mode, True, encoding)
   File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/cbook.py"", line 483, in to_filehandle
     fh = open(fname, flag, encoding=encoding)
-FileNotFoundError: [Errno 2] No such file or directory: 'Figures/nearest_neighbor_visualisation.svg'
+FileNotFoundError: [Errno 2] No such file or directory: 'Figures/cheapest insertion_visualisation.svg'
 ]"
-lrc303B.txt,0.67,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 59, in <module>
+lrc303B.txt,0.74,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 65, in <module>
     sol = main(instance)
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 29, in main
-    nearest_neighbor = nearest_neighbour_routes_from_instance(instance_dict, 25)
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/heuristics.py"", line 126, in nearest_neighbour_routes_from_instance
-    visualize_routes(routes, node_data, ""nearest neighbor"")
-  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/helper.py"", line 283, in visualize_routes
-    plt.savefig(""Figures/nearest_neighbor_visualisation.svg"", format=""svg"")
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 36, in main
+    cheapest_insertion = cheapest_insertion_routes_from_instance(instance_dict, 25)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/heuristics.py"", line 134, in cheapest_insertion_routes_from_instance
+    visualize_routes(routes, node_data, number_customer, ""cheapest insertion"")
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/helper.py"", line 349, in visualize_routes
+    plt.savefig(""Figures/""+name+""_visualisation.svg"", format=""svg"")
   File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/pyplot.py"", line 1134, in savefig
     res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
   File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/figure.py"", line 3390, in savefig
@@ -72,5 +72,5 @@ lrc303B.txt,0.67,No,-inf,"[Error running script: Command '['python3', 'main.py',
     fh, opened = to_filehandle(path_or_file, mode, True, encoding)
   File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/cbook.py"", line 483, in to_filehandle
     fh = open(fname, flag, encoding=encoding)
-FileNotFoundError: [Errno 2] No such file or directory: 'Figures/nearest_neighbor_visualisation.svg'
+FileNotFoundError: [Errno 2] No such file or directory: 'Figures/cheapest insertion_visualisation.svg'
 ]"
