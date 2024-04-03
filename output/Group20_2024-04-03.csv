@@ -1,4 +1,4 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,0.61,Yes,16496.551872566546,[]
-lrc103B.txt,0.80,Yes,35159.14369038865,[]
-lrc303B.txt,3.58,Yes,65829.13320472452,[]
+lrc53B.txt,0.61,No,-inf,"[invalid syntax (<unknown>, line 1)]"
+lrc103B.txt,0.80,No,-inf,"[invalid syntax (<unknown>, line 1)]"
+lrc303B.txt,3.88,No,-inf,"[invalid syntax (<unknown>, line 1)]"
