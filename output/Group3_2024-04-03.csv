@@ -1,4 +1,4 @@
 Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,1.29,No,-inf,"[Route does not start/end at depot]; [Delivery before pickup OR only pickup, no delivery]"
-lrc103B.txt,1.14,No,-inf,"[Route does not start/end at depot]; [Delivery before pickup OR only pickup, no delivery]"
-lrc303B.txt,2.00,No,-inf,"[Route does not start/end at depot]; [Delivery before pickup OR only pickup, no delivery]"
+lrc53B.txt,0.97,No,-inf,"[Route does not start/end at depot]; [Delivery before pickup OR only pickup, no delivery]"
+lrc103B.txt,1.16,No,-inf,"[Route does not start/end at depot]; [Delivery before pickup OR only pickup, no delivery]"
+lrc303B.txt,2.04,No,-inf,"[Route does not start/end at depot]; [Delivery before pickup OR only pickup, no delivery]"
