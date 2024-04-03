@@ -1,0 +1,4 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc53B.txt,33.82,Yes,18924.85748772271,[]
+lrc103B.txt,123.14,Yes,40795.03185720787,[]
+lrc303B.txt,306.70,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303B.txt']' timed out after 920 seconds. Details: No error details available.]"
