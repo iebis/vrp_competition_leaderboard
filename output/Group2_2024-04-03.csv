@@ -1,4 +1,0 @@
-Instance,Runtime (seconds),Feasible,Profit,Error
-lrc53B.txt,0.42,Yes,19209.333560224382,[]
-lrc103B.txt,0.42,Yes,38293.851584293996,[]
-lrc303B.txt,0.50,Yes,86344.37960255794,[]
