@@ -1,0 +1,25 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,0.45,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 7, in <module>
+    from local_search import local_search_within_route
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/local_search.py"", line 13
+    if node_id is in indices:
+                  ^^
+SyntaxError: invalid syntax
+]"
+lrc303C.txt,0.45,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 7, in <module>
+    from local_search import local_search_within_route
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/local_search.py"", line 13
+    if node_id is in indices:
+                  ^^
+SyntaxError: invalid syntax
+]"
+lrc203C.txt,0.45,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 7, in <module>
+    from local_search import local_search_within_route
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/local_search.py"", line 13
+    if node_id is in indices:
+                  ^^
+SyntaxError: invalid syntax
+]"
