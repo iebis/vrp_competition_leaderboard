@@ -1,0 +1,16 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,0.08,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details:   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-4/Group4/main.py"", line 36
+    >>>>>>> 05c56bb140fba35cdf2294a31d0950241078ad42
+            ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+]"
+lrc303C.txt,0.08,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details:   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-4/Group4/main.py"", line 36
+    >>>>>>> 05c56bb140fba35cdf2294a31d0950241078ad42
+            ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+]"
+lrc203C.txt,0.08,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details:   File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-4/Group4/main.py"", line 36
+    >>>>>>> 05c56bb140fba35cdf2294a31d0950241078ad42
+            ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+]"
