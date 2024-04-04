@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 # Load the CSV file
 df = pd.read_csv('output/central_results.csv')
@@ -27,7 +28,7 @@ rank = 1
 for i, row in best_scores.iterrows():
     passed_icon = '✅' if row['Overall Feasible'] == 'Yes' else '❌'
     date_str = row['Date Time'].strftime("%Y-%m-%d %H:%M")
-    new_leaderboard_rows.append(f"| {rank} | {date_str} | {row['Group']} | {passed_icon} | {round(100.0*row['Score'],0)} | {round(row['Cumulative Profits'],0)} | {row['Total Runtime (seconds)']}s |")
+    new_leaderboard_rows.append(f"| {rank} | {date_str} | {row['Group']} | {passed_icon} | {np.round(100.0*row['Score'],2)} | {np.round(row['Cumulative Profits'],2)} | {row['Total Runtime (seconds)']}s |")
     rank += 1
 
 new_leaderboard_content = "\n".join([leaderboard_header] + new_leaderboard_rows)
