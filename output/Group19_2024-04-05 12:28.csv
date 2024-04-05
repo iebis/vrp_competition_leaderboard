@@ -1,0 +1,4 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,1.23,No,32088.933129280234,"[Delivery before pickup OR only pickup, no delivery]"
+lrc303C.txt,2.68,No,31114.23628522898,"[Delivery before pickup OR only pickup, no delivery]"
+lrc203C.txt,1.94,No,32036.97129073627,"[Delivery before pickup OR only pickup, no delivery]"

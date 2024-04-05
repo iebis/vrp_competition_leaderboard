@@ -1,0 +1,28 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,0.47,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/main.py"", line 132, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/main.py"", line 61, in main
+    local_search_route = Reinsertion_LocalSearch(solution,instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/local_search.py"", line 29, in Reinsertion_LocalSearch
+    return routes
+NameError: name 'routes' is not defined
+]"
+lrc303C.txt,0.65,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/main.py"", line 132, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/main.py"", line 61, in main
+    local_search_route = Reinsertion_LocalSearch(solution,instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/local_search.py"", line 29, in Reinsertion_LocalSearch
+    return routes
+NameError: name 'routes' is not defined
+]"
+lrc203C.txt,0.52,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/main.py"", line 132, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/main.py"", line 61, in main
+    local_search_route = Reinsertion_LocalSearch(solution,instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-2/Group2/local_search.py"", line 29, in Reinsertion_LocalSearch
+    return routes
+NameError: name 'routes' is not defined
+]"
