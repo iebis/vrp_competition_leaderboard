@@ -1,0 +1,4 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,3.71,Yes,40051.0865604361,[]
+lrc303C.txt,11.04,Yes,109955.09280488218,[]
+lrc203C.txt,7.03,Yes,79598.32286998455,[]

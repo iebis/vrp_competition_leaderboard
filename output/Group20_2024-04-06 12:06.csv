@@ -1,0 +1,20 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,10.71,Yes,41055.809939616745,[]
+lrc303C.txt,14.39,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-20/Group20/main.py"", line 154, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-20/Group20/main.py"", line 108, in main
+    profit = total_profit_with_penalties(solution, instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-20/Group20/helper.py"", line 175, in total_profit_with_penalties
+    for route in solution['routes']:
+TypeError: 'NoneType' object is not iterable
+]"
+lrc203C.txt,13.17,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-20/Group20/main.py"", line 154, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-20/Group20/main.py"", line 108, in main
+    profit = total_profit_with_penalties(solution, instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-20/Group20/helper.py"", line 175, in total_profit_with_penalties
+    for route in solution['routes']:
+TypeError: 'NoneType' object is not iterable
+]"

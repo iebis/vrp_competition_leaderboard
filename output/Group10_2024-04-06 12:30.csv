@@ -1,0 +1,34 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,0.37,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 86, in <module>
+    sol = main(instance, strategy)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 46, in main
+    computed_instance = local.simulated_annealing()
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/local_search.py"", line 88, in simulated_annealing
+    neighbor_solution = self.get_neighbor_solution(current_solution)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/local_search.py"", line 63, in get_neighbor_solution
+    neighbor_routes['routes'][route1_index][node1_index_delivery], neighbor_routes['routes'][route2_index][node2_index_delivery] = neighbor_routes['routes'][route2_index][node2_index_delivery], neighbor_routes['routes'][route1_index][node1_index_delivery]
+UnboundLocalError: local variable 'node2_index_delivery' referenced before assignment
+]"
+lrc303C.txt,0.36,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 86, in <module>
+    sol = main(instance, strategy)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 46, in main
+    computed_instance = local.simulated_annealing()
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/local_search.py"", line 88, in simulated_annealing
+    neighbor_solution = self.get_neighbor_solution(current_solution)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/local_search.py"", line 63, in get_neighbor_solution
+    neighbor_routes['routes'][route1_index][node1_index_delivery], neighbor_routes['routes'][route2_index][node2_index_delivery] = neighbor_routes['routes'][route2_index][node2_index_delivery], neighbor_routes['routes'][route1_index][node1_index_delivery]
+UnboundLocalError: local variable 'node2_index_delivery' referenced before assignment
+]"
+lrc203C.txt,0.36,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 86, in <module>
+    sol = main(instance, strategy)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 46, in main
+    computed_instance = local.simulated_annealing()
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/local_search.py"", line 88, in simulated_annealing
+    neighbor_solution = self.get_neighbor_solution(current_solution)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/local_search.py"", line 63, in get_neighbor_solution
+    neighbor_routes['routes'][route1_index][node1_index_delivery], neighbor_routes['routes'][route2_index][node2_index_delivery] = neighbor_routes['routes'][route2_index][node2_index_delivery], neighbor_routes['routes'][route1_index][node1_index_delivery]
+UnboundLocalError: local variable 'node2_index_delivery' referenced before assignment
+]"
