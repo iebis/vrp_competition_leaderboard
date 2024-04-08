@@ -1,0 +1,34 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,0.39,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 96, in <module>
+    sol = main(instance, strategy, instanceNR)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 47, in main
+    computed_instance = ri.generate_random_insertion_route()
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/constructive.py"", line 124, in generate_random_insertion_route
+    random_insert, _ = self.find_random_insertion({},delivery_info_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/constructive.py"", line 28, in find_random_insertion
+    random_insert = unassigned_pickups[random_insertNR]
+KeyError: 0
+]"
+lrc303C.txt,0.45,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 96, in <module>
+    sol = main(instance, strategy, instanceNR)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 47, in main
+    computed_instance = ri.generate_random_insertion_route()
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/constructive.py"", line 124, in generate_random_insertion_route
+    random_insert, _ = self.find_random_insertion({},delivery_info_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/constructive.py"", line 28, in find_random_insertion
+    random_insert = unassigned_pickups[random_insertNR]
+KeyError: 0
+]"
+lrc203C.txt,0.40,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 96, in <module>
+    sol = main(instance, strategy, instanceNR)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 47, in main
+    computed_instance = ri.generate_random_insertion_route()
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/constructive.py"", line 124, in generate_random_insertion_route
+    random_insert, _ = self.find_random_insertion({},delivery_info_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/constructive.py"", line 30, in find_random_insertion
+    random_insert = unassigned_deliveries[random_insertNR] 
+KeyError: 2
+]"

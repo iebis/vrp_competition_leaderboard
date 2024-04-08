@@ -1,0 +1,4 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,0.59,No,75247.49443811753,[Visiting customer(s) more than once]
+lrc303C.txt,2.81,No,29412.46595339611,[Visiting customer(s) more than once]
+lrc203C.txt,1.34,No,60588.9731912486,[Visiting customer(s) more than once]
