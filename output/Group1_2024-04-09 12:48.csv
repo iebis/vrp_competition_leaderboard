@@ -1,0 +1,22 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,2.96,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-1/Group1/main.py"", line 6, in <module>
+    from h2_constructiveHeuristic import  ClusteringAndNearestNeigbor 
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-1/Group1/h2_constructiveHeuristic.py"", line 2, in <module>
+    from active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans
+ModuleNotFoundError: No module named 'active_semi_clustering'
+]"
+lrc303C.txt,0.86,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-1/Group1/main.py"", line 6, in <module>
+    from h2_constructiveHeuristic import  ClusteringAndNearestNeigbor 
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-1/Group1/h2_constructiveHeuristic.py"", line 2, in <module>
+    from active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans
+ModuleNotFoundError: No module named 'active_semi_clustering'
+]"
+lrc203C.txt,0.86,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-1/Group1/main.py"", line 6, in <module>
+    from h2_constructiveHeuristic import  ClusteringAndNearestNeigbor 
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-1/Group1/h2_constructiveHeuristic.py"", line 2, in <module>
+    from active_semi_clustering.semi_supervised.pairwise_constraints import PCKMeans
+ModuleNotFoundError: No module named 'active_semi_clustering'
+]"

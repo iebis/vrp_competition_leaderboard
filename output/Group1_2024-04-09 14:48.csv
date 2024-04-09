@@ -1,0 +1,4 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,12.77,No,-inf,"[Delivery before pickup OR only pickup, no delivery]"
+lrc303C.txt,12.80,No,56540.45414237678,"[Vehicle capacity exceeded]; [Delivery before pickup OR only pickup, no delivery]"
+lrc203C.txt,12.62,No,40770.949717499156,[Vehicle capacity exceeded]
