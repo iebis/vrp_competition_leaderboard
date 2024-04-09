@@ -1,0 +1,40 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,0.94,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/main.py"", line 83, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/main.py"", line 37, in main
+    custom_heuristic = customheuristic(instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/heuristic.py"", line 456, in customheuristic
+    (nearest_pair, start_depot) = find_best_start_depot(customer_options)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/heuristic.py"", line 404, in find_best_start_depot
+    start_profit = helper.total_profit_with_penalties(start_solution, instances)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/helper.py"", line 209, in total_profit_with_penalties
+    x2, y2 = node_data[node_id_next]['x_coord'], node_data[node_id_next]['y_coord']
+KeyError: 54
+]"
+lrc303C.txt,0.63,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/main.py"", line 83, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/main.py"", line 37, in main
+    custom_heuristic = customheuristic(instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/heuristic.py"", line 456, in customheuristic
+    (nearest_pair, start_depot) = find_best_start_depot(customer_options)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/heuristic.py"", line 404, in find_best_start_depot
+    start_profit = helper.total_profit_with_penalties(start_solution, instances)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/helper.py"", line 209, in total_profit_with_penalties
+    x2, y2 = node_data[node_id_next]['x_coord'], node_data[node_id_next]['y_coord']
+KeyError: 154
+]"
+lrc203C.txt,0.33,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/main.py"", line 83, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/main.py"", line 37, in main
+    custom_heuristic = customheuristic(instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/heuristic.py"", line 456, in customheuristic
+    (nearest_pair, start_depot) = find_best_start_depot(customer_options)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/heuristic.py"", line 404, in find_best_start_depot
+    start_profit = helper.total_profit_with_penalties(start_solution, instances)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/helper.py"", line 209, in total_profit_with_penalties
+    x2, y2 = node_data[node_id_next]['x_coord'], node_data[node_id_next]['y_coord']
+KeyError: 104
+]"

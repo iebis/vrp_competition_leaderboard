@@ -1,0 +1,76 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,0.58,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 76, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 47, in main
+    local_search_improvement = local_search_within_route(instance_dict, cheapest_insertion)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/local_search.py"", line 97, in local_search_within_route
+    visualize_routes(constructive_heuristic_sol, node_data, number_customer, ""local search 1"")
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/helper.py"", line 299, in visualize_routes
+    plt.savefig(""Figures/""+name+""_visualisation.svg"", format=""svg"")
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/pyplot.py"", line 1134, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/figure.py"", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/backend_bases.py"", line 2193, in print_figure
+    result = print_method(
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/backend_bases.py"", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/backends/backend_svg.py"", line 1328, in print_svg
+    with cbook.open_file_cm(filename, ""w"", encoding=""utf-8"") as fh:
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/cbook.py"", line 497, in open_file_cm
+    fh, opened = to_filehandle(path_or_file, mode, True, encoding)
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/cbook.py"", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+FileNotFoundError: [Errno 2] No such file or directory: 'Figures/local search 1_visualisation.svg'
+]"
+lrc303C.txt,0.75,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 76, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 47, in main
+    local_search_improvement = local_search_within_route(instance_dict, cheapest_insertion)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/local_search.py"", line 97, in local_search_within_route
+    visualize_routes(constructive_heuristic_sol, node_data, number_customer, ""local search 1"")
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/helper.py"", line 299, in visualize_routes
+    plt.savefig(""Figures/""+name+""_visualisation.svg"", format=""svg"")
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/pyplot.py"", line 1134, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/figure.py"", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/backend_bases.py"", line 2193, in print_figure
+    result = print_method(
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/backend_bases.py"", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/backends/backend_svg.py"", line 1328, in print_svg
+    with cbook.open_file_cm(filename, ""w"", encoding=""utf-8"") as fh:
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/cbook.py"", line 497, in open_file_cm
+    fh, opened = to_filehandle(path_or_file, mode, True, encoding)
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/cbook.py"", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+FileNotFoundError: [Errno 2] No such file or directory: 'Figures/local search 1_visualisation.svg'
+]"
+lrc203C.txt,0.64,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 76, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/main.py"", line 47, in main
+    local_search_improvement = local_search_within_route(instance_dict, cheapest_insertion)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/local_search.py"", line 97, in local_search_within_route
+    visualize_routes(constructive_heuristic_sol, node_data, number_customer, ""local search 1"")
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-8/Group8/helper.py"", line 299, in visualize_routes
+    plt.savefig(""Figures/""+name+""_visualisation.svg"", format=""svg"")
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/pyplot.py"", line 1134, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/figure.py"", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/backend_bases.py"", line 2193, in print_figure
+    result = print_method(
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/backend_bases.py"", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/backends/backend_svg.py"", line 1328, in print_svg
+    with cbook.open_file_cm(filename, ""w"", encoding=""utf-8"") as fh:
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/cbook.py"", line 497, in open_file_cm
+    fh, opened = to_filehandle(path_or_file, mode, True, encoding)
+  File ""/home/akkermanfr/.local/lib/python3.10/site-packages/matplotlib/cbook.py"", line 483, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+FileNotFoundError: [Errno 2] No such file or directory: 'Figures/local search 1_visualisation.svg'
+]"
