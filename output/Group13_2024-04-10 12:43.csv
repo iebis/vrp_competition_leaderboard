@@ -1,0 +1,4 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,26.25,Yes,41760.25404289228,[]
+lrc303C.txt,71.63,No,114181.56584138237,[Vehicle capacity exceeded]
+lrc203C.txt,50.26,Yes,82834.35640392844,[]

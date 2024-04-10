@@ -1,0 +1,22 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,1.63,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/main.py"", line 84, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/main.py"", line 70, in main
+    print(""short routes:"",routes_short)
+NameError: name 'routes_short' is not defined
+]"
+lrc303C.txt,1.20,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/main.py"", line 84, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/main.py"", line 70, in main
+    print(""short routes:"",routes_short)
+NameError: name 'routes_short' is not defined
+]"
+lrc203C.txt,0.86,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/main.py"", line 84, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-12/Group12/main.py"", line 70, in main
+    print(""short routes:"",routes_short)
+NameError: name 'routes_short' is not defined
+]"

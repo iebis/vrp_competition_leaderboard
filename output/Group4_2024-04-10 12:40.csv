@@ -1,0 +1,4 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,485.22,Yes,42244.86548378818,[]
+lrc303C.txt,605.10,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' timed out after 605 seconds. Details: No error details available.]"
+lrc203C.txt,585.81,Yes,83791.52868016624,[]
