@@ -1,0 +1,22 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,1.02,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-13/Group13/main.py"", line 106, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-13/Group13/main.py"", line 24, in main
+    clusters = cluster_pickup_delivery(instance_dict, 4)
+TypeError: cluster_pickup_delivery() missing 1 required positional argument: 'cluster_id'
+]"
+lrc303C.txt,0.99,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-13/Group13/main.py"", line 106, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-13/Group13/main.py"", line 24, in main
+    clusters = cluster_pickup_delivery(instance_dict, 4)
+TypeError: cluster_pickup_delivery() missing 1 required positional argument: 'cluster_id'
+]"
+lrc203C.txt,1.09,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-13/Group13/main.py"", line 106, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-13/Group13/main.py"", line 24, in main
+    clusters = cluster_pickup_delivery(instance_dict, 4)
+TypeError: cluster_pickup_delivery() missing 1 required positional argument: 'cluster_id'
+]"

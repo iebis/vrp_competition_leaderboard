@@ -1,0 +1,20 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,7.55,Yes,41136.08582367241,[]
+lrc303C.txt,1.45,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 187, in <module>
+    sol = main(instance, heuristic_method,local_search_method)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 57, in main
+    routes_output = get_route_custom_neighborhood(instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/H2_custom_construction.py"", line 279, in get_route_custom_neighborhood
+    total_penalty += ((delivery_arrival_time + delivery_waiting_time) - delivery_node_closing) * penalty_per_hour
+UnboundLocalError: local variable 'total_penalty' referenced before assignment
+]"
+lrc203C.txt,1.28,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 187, in <module>
+    sol = main(instance, heuristic_method,local_search_method)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/main.py"", line 57, in main
+    routes_output = get_route_custom_neighborhood(instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-11/Group11/H2_custom_construction.py"", line 279, in get_route_custom_neighborhood
+    total_penalty += ((delivery_arrival_time + delivery_waiting_time) - delivery_node_closing) * penalty_per_hour
+UnboundLocalError: local variable 'total_penalty' referenced before assignment
+]"

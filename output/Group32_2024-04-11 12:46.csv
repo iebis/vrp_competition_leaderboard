@@ -1,0 +1,16 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,0.09,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-32/Group32/main.py"", line 9, in <module>
+    from heuristic import self_made_heuristic
+ModuleNotFoundError: No module named 'heuristic'
+]"
+lrc303C.txt,0.08,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-32/Group32/main.py"", line 9, in <module>
+    from heuristic import self_made_heuristic
+ModuleNotFoundError: No module named 'heuristic'
+]"
+lrc203C.txt,0.08,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-32/Group32/main.py"", line 9, in <module>
+    from heuristic import self_made_heuristic
+ModuleNotFoundError: No module named 'heuristic'
+]"
