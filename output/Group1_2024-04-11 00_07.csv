@@ -1,0 +1,4 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,2.01,Yes,40053.831952176995,"[Note: changed by hand]"
+lrc303C.txt,2.00,Yes,81903.8743950756,"[Note: changed by hand]"
+lrc203C.txt,2.01,Yes,119603.2801963891,[Note: changed by hand]
