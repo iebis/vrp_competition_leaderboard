@@ -1,0 +1,24 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,0.67,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 93, in <module>
+    sol = main(instance, strategy, instanceNR)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 47, in main
+    computed_routes = local.tabu_search(instanceNR)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/local_search.py"", line 220, in tabu_search
+    current_best_profit = total_profit_with_penalties(current_best_solution, self.instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/helper.py"", line 183, in total_profit_with_penalties
+    x2, y2 = node_data[node_id_next]['x_coord'], node_data[node_id_next]['y_coord']
+KeyError: 134
+]"
+lrc303C.txt,605.12,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' timed out after 605 seconds. Details: No error details available.]"
+lrc203C.txt,0.66,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 93, in <module>
+    sol = main(instance, strategy, instanceNR)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/main.py"", line 47, in main
+    computed_routes = local.tabu_search(instanceNR)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/local_search.py"", line 220, in tabu_search
+    current_best_profit = total_profit_with_penalties(current_best_solution, self.instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-10/Group10/helper.py"", line 183, in total_profit_with_penalties
+    x2, y2 = node_data[node_id_next]['x_coord'], node_data[node_id_next]['y_coord']
+KeyError: 284
+]"
