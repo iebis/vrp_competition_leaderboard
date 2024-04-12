@@ -1,0 +1,28 @@
+Instance,Runtime (seconds),Feasible,Profit,Error
+lrc103C.txt,0.46,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc103C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-23/Group23/main.py"", line 63, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-23/Group23/main.py"", line 38, in main
+    check_solution_feasibility(solution, instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-23/Group23/helper.py"", line 139, in check_solution_feasibility
+    Feasible = TTrue
+NameError: name 'TTrue' is not defined. Did you mean: 'True'?
+]"
+lrc303C.txt,0.47,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc303C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-23/Group23/main.py"", line 63, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-23/Group23/main.py"", line 38, in main
+    check_solution_feasibility(solution, instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-23/Group23/helper.py"", line 139, in check_solution_feasibility
+    Feasible = TTrue
+NameError: name 'TTrue' is not defined. Did you mean: 'True'?
+]"
+lrc203C.txt,0.55,No,-inf,"[Error running script: Command '['python3', 'main.py', '--instance_path', '/home/akkermanfr/competition_master/Instances/lrc203C.txt']' returned non-zero exit status 1.. Details: Traceback (most recent call last):
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-23/Group23/main.py"", line 63, in <module>
+    sol = main(instance)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-23/Group23/main.py"", line 38, in main
+    check_solution_feasibility(solution, instance_dict)
+  File ""/home/akkermanfr/repos/tlm-assignment-2-furniture-distribution-company-submissions/tlm-assignment-2-furniture-distribution-company-group-23/Group23/helper.py"", line 139, in check_solution_feasibility
+    Feasible = TTrue
+NameError: name 'TTrue' is not defined. Did you mean: 'True'?
+]"
